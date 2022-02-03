@@ -1,0 +1,23 @@
+Basic Nodejs Set Up
+https://levelup.gitconnected.com/set-up-and-run-a-simple-node-server-project-38b403a3dc09
+https://developer.ibm.com/learningpaths/get-started-nodejs/
+
+
+Overview of Nodejs
+https://nodejs.dev/learn/introduction-to-nodejs
+
+Retrieve URL and POST Parameters with Express
+https://www.digitalocean.com/community/tutorials/use-expressjs-to-get-url-and-post-parameters
+
+// fake api to get data
+https://jsonplaceholder.typicode.com/
+https://jsonplaceholder.typicode.com/guide/
+
+Node.js Essentials (Part 1)
+https://play.fresco.me/course/66
+
+Node.js with Express Framework (Part 2)
+https://play.fresco.me/course/89
+
+Node.js Serenade (Part 3)
+https://play.fresco.me/course/355
