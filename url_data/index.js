@@ -11,7 +11,7 @@ router.get("/query", function (req, res) {
   });
 });
 
-router.get("/params/:name", function (req, res) {
+router.get("/params/:name/:age", function (req, res) {
   console.log(req.params);
   res.send(req.params.name);
 });
@@ -29,7 +29,7 @@ router.get(
     console.log(req.files);
 
     res.send({
-      data: "ad",
+      data: "done",
     });
   }
 );

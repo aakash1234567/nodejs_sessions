@@ -1,22 +1,25 @@
 const express = require("express");
+var path = require("path");
+var cors = require("cors");
 
 var body_parser = require("./body_parser");
 var template_engine = require("./template_engines");
 var validator = require("./validator");
 var http_axios_errors = require("./http_axios_errors");
-var { cors, corsOptions } = require("./cors");
+var corsOptions = require("./cors");
 var lodash_os_path = require("./lodash_os_path");
 var url_data = require("./url_data");
 var fakerjs = require("./fakerjs");
 var events = require("./event");
 var fs = require("fs");
+var mailer = require("./dotenv_mail_moment");
 
 const port = 3000;
 const app = express();
 
 // View Engine Setup
-// app.set("views", path.join(__dirname, "/template_engines/pug"));
-// app.set("view engine", "pug");
+app.set("views", path.join(__dirname, "/template_engines/pug"));
+app.set("view engine", "pug");
 
 // app.use(cors(corsOptions));
 

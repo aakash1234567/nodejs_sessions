@@ -15,6 +15,7 @@ router.get("/", function (req, res) {
 
 router.post("/saveData", (req, res) => {
   console.log("Using Body-parser: ", req.body.email);
+  res.send("done");
 });
 
 module.exports = router;

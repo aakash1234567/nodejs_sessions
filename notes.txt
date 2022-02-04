@@ -21,3 +21,17 @@ https://play.fresco.me/course/89
 
 Node.js Serenade (Part 3)
 https://play.fresco.me/course/355
+
+
+https://nodejs.org/docs/v0.4.12/api/http.html#http.ServerRequest
+
+Mongo cloud database
+https://www.mongodb.com/atlas/database
+
+Recommanded:
+https://jwt.io/
+https://jasonwatmore.com/post/2018/09/24/nodejs-basic-authentication-tutorial-with-example-api
+https://jasonwatmore.com/post/2018/08/06/nodejs-jwt-authentication-tutorial-with-example-api
+https://jasonwatmore.com/post/2018/06/14/nodejs-mongodb-simple-api-for-authentication-registration-and-user-management
+https://jasonwatmore.com/post/2020/09/08/nodejs-mysql-boilerplate-api-with-email-sign-up-verification-authentication-forgot-password
+https://jasonwatmore.com/post/2020/06/17/nodejs-mongodb-api-jwt-authentication-with-refresh-tokens#project-structure

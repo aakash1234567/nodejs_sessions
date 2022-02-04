@@ -7,7 +7,7 @@ var faker = require("@faker-js/faker");
 var router = express.Router();
 
 router.get("/name", function (req, res) {
-  const randomName = faker.faker.name.findName();
+  const randomName = faker.faker.phone.phoneFormats();
   res.send(randomName);
 });
 

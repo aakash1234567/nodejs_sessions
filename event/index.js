@@ -16,11 +16,16 @@ delayedEmitter.on("delayEvent", () => {
   console.log("delayed by 10 seconds!");
 });
 
-router.get("/", function (req, res) {
+delayedEmitter.on("testing", () => {
+  console.log("testing");
+});
+
+router.post("/", function (req, res) {
   myEmitter.emit("event");
   setTimeout(() => {
     delayedEmitter.emit("delayEvent");
   }, 7000);
+  delayedEmitter.emit("testing");
   res.send("emitted");
 });
 

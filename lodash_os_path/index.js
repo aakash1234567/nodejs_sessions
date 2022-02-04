@@ -9,8 +9,11 @@ router.get("/lodash", function (req, res) {
   const data = {
     name: "myName",
     age: 23,
+    impdata: {
+      email: "myemail",
+    },
   };
-  const email = lodash.get(data, "email", "Not Found");
+  const email = lodash.get(data, "impdata.email", "Not Found");
   res.send({ email, url: "https://lodash.com/docs/4.17.15" });
 });
 
